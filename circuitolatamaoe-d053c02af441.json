@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "circuitolatamaoe",
+  "private_key_id": "d053c02af4412b262fa59f43788e02722c0e6e06",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCZ/jgJlqpvUIN0\nKeVXKn0twxLMfsEu5zS/hx3BQRyd7BjBImK/QCEnywDcsz0F0i4dlGqq0NshQTzT\ngDqTo/A8MEkqakoyfGs+5xGquidq9YCf38KxrGEAuI0EaK1Ft06NyQHBERwrAVs6\nxy5BQSWpd/d64hUK8skTo03MvEBRhNHNSV7CIRh87NG5mmZJqT5ctYjkL0aaVtk6\ntEyPkcRJhGkWvM0EPDR3LHgth7iSyoWh8Z6cDf5YudhsZMCfpe+N9B1xgL9WomDl\n04DneDEt41M3UmS828UYWzBlqYpR+YC44A7LLX/frcxSFRa7xtwA4QLywga5wsiN\nYKgZ+lzRAgMBAAECggEAD/nGuH/v+JJiwNdj2pIm4Gt/dMWlpwcHeuM6nAT0QhHv\nU4IMuoidp/IwibTynLr8W8c89bGrOhz5gXupGA4G60ebH5JdVjWALstsEskzM656\nhJuDKEmY2qlKv+1YJIZq2NzEmNH8mR2P6F4nl09558XxX8c6paMgZzAm7xmMlqhG\nobVNxIWA07UpUHvkdNv00yBDnawDVI2CRG2ZOyM1B6snZcWw71M9j4hvnUFwZE+L\nmJ4ntT2ZvDcnscjmXoceEsf1ZUcGtCYpZ9H3nST4TyLYFMOxUnu4BpCufRuQsUAL\n9p5YLA8HuktDjN+UA/icAuXlEs5Er7oJRdVOPzOPwQKBgQDL012Yfdtq1iKM0A2a\n3/O0MkQnB+N8i3xZr+LrE8/zOnV0IVChZdTPV1S3BZRdKxwWsRhHBEfkno89rxtP\nRuZk3Bb06IJEfERZJhR1O8LbsNpxjNp1KKFSwSO8hrNhs8QtTXjAIgsbCHODax/H\n/gIQqPd4ZtWpEgfnTyD4AQjDSQKBgQDBaVZjgrCi3/we0jw4Y45kldzG9c0DTmrK\nLA0l9vCczTwZj04sG430oIB4YpyBezATIzzO3IQPCnIl1JJLc7oPPFlUd4HjXrij\noaXW8/EST+vONtiMlW6AQu7RmJ/dzyqf3e5gANt25tqT5qb0604J5yVykrm+AiTy\nfjLiCxhFSQKBgC+r39gql4cFTk9g2c2/U2Bx4T6/uZUHiq3vVUNl/t0EbzQaFqGp\nD3zvEAE+bNTdoFQuV19EwQvXiekDa3+/NWOhljzxpIYgClxPa7l/oLOBSZYFO5Lr\nTc/tHE6bspjHUrrFw9gsHizUbS/vfh9oaVM8MaUXaCGC9hZDi5J1q3cBAoGBALfo\nnvGeerFVRFpWVFbWK7bvXXB+l8PWE+tL+fCon+CpssUnJBEC3nfHCoHuWp0wcuUv\ns4mL27Klnybju3wtfbUxEEwmGwcFsZI+igAcE5XzEukR89Wx3dHuU0JP22vBquk6\n0YjOJ+Em4J6USxtGh/0Yot4QMLhBN7qxT1brb9epAoGBAMEvqS+lXtq7zYLOfcH6\nNFCPAqiN2HmoldzvAQeCAJoMtkhjAJbl0ZHGMvRSCm6zmokuvXKyJ3UVLum2bifw\nCnZyZvE4tMhYmx6tF9E3YEHt0tX65I56CrMhpXxn4uSK5jdsFnwhGWYsgAQJiRwZ\nTqmglLDiLD5zll/ycIH+s2iT\n-----END PRIVATE KEY-----\n",
+  "client_email": "circuitbot@circuitolatamaoe.iam.gserviceaccount.com",
+  "client_id": "102510616740705329092",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/circuitbot%40circuitolatamaoe.iam.gserviceaccount.com",
+  "groups_file_token" : "1NQF00-e2gUb2zH42VRCLvmzNEJ91oPVYuaznEtnbp9Q",
+  "raw_data_file_token" : "1U5_CN_yoF5-4_t2g8XVmCY9TEXAYH8iZ56uifkaGQls"
+}

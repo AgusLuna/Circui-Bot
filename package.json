@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "discord.js": "^14.7.1",
-    "fs": "^0.0.1-security",
     "google-spreadsheet": "^3.3.0",
-    "googleapis": "^111.0.0"
+    "googleapis": "^111.0.0",
+    "jszip": "^3.10.1"
   }
 }

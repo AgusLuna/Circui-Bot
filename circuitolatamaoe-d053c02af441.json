@@ -8,7 +8,5 @@
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/circuitbot%40circuitolatamaoe.iam.gserviceaccount.com",
-  "groups_file_token" : "1NQF00-e2gUb2zH42VRCLvmzNEJ91oPVYuaznEtnbp9Q",
-  "raw_data_file_token" : "1U5_CN_yoF5-4_t2g8XVmCY9TEXAYH8iZ56uifkaGQls"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/circuitbot%40circuitolatamaoe.iam.gserviceaccount.com"
 }

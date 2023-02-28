@@ -2,15 +2,30 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Collection, Events} = require('discord.js');
 
+//Get all command files in order to create commands from them
+const commandFiles = [];
 const commandsPath = path.join(__dirname, 'commands');
-const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
 
+fs.readdirSync(commandsPath).forEach(directory => 
+{
+    fs.readdirSync(path.join(commandsPath, directory)).filter(files => files.endsWith('.js')).forEach(commandFile => 
+    {
+        commandFiles.push(commandFile);      
+    });
+});
+
+//Get all events files in order to create commands from them
+const eventFiles = [];
 const eventsPath = path.join(__dirname, 'events');
-const events = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
+fs.readdirSync(eventsPath).forEach(directory =>
+{
+    fs.readdirSync(path.join(eventsPath, directory)).filter(files => files.endsWith('.js')).forEach(eventFile =>
+    {
+        eventFiles.push(eventFile);
+    });
+});
 
 client.commands = new Collection();
-
-CommandsArray = [];
 
 console.log(`Loading events...`);
 
@@ -48,8 +63,8 @@ console.log(commandFiles);
 
 client.on('ready', (client) => 
     {
-     if (client.config.app.global) client.application.commands.set(CommandsArray);
-     else client.guilds.cache.get(client.config.app.guild).commands.set(CommandsArray);
+     //if (client.config.app.global) client.application.commands.set(CommandsArray);
+     //else client.guilds.cache.get(client.config.app.guild).commands.set(CommandsArray);
     }
 );
 

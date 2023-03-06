@@ -3,6 +3,6 @@
     "discord.js": "^14.7.1",
     "google-spreadsheet": "^3.3.0",
     "googleapis": "^111.0.0",
-    "jszip": "^3.10.1"
+    "gzip-js": "^0.3.2"
   }
 }

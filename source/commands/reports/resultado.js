@@ -1,6 +1,7 @@
 const { ApplicationCommandOptionType, SlashCommandBuilder, PermissionFlagsBits} = require('discord.js');
-const { JSZip } = require('jszip');
+const { gzip } = require('gzip-js');
 const { google } = require("googleapis");
+const configFile = require('../../../config.js');
 
 const credentialFilename = "circuitolatamaoe-d053c02af441.json";
 const scopes = ["https://www.googleapis.com/auth/drive"];
@@ -14,9 +15,10 @@ module.exports =
         .setName('resultado')
         .setDescription('')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
-        async execute({ inter }) {
-        await DisplayText(config.templates_file_token, inter);
-    },
+        async execute({ inter }) 
+        {
+            await DisplayText(configFile.templates_file_token, inter);
+        },
     
 }
 

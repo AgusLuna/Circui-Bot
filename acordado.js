@@ -1,5 +1,6 @@
 const { ApplicationCommandOptionType } = require('discord.js');
-const { google } = require("googleapis");
+const { google } = require('googleapis');
+const configFile = require('../../../config.js');
 
 const credentialFilename = "circuitolatamaoe-d053c02af441.json";
 const scopes = ["https://www.googleapis.com/auth/drive"];
@@ -63,7 +64,7 @@ module.exports = {
     ],
 
    async execute({ inter }) {          
-       	await DisplayText(config.templates_file_token, inter);      
+       	await DisplayText(configFile.templates_file_token, inter); 
     },
 };
 
